@@ -17,26 +17,6 @@ Optional visualizations are also included for exploratory data analysis.
 
 ---
 
-## 📂 Project Structure
-
-├── data/ # (NOT committed) Place datasets here
-├── outputs/
-│ ├── pure_python_summary.txt
-│ ├── pandas_summary.txt
-│ ├── polars_summary.txt
-│ └── visuals/
-│ ├── spend_histogram.png
-│ └── top_pages_bar.png
-├── pure_python_stats.py
-├── pandas_stats.py
-├── polars_stats.py
-├── visuals.py
-├── .gitignore
-└── README.md
-
-
----
-
 ## ▶️ How to Run
 
 1. **Place the dataset** (e.g., `2024_fb_ads_president_scored_anon.csv`) inside the `data/` folder.
