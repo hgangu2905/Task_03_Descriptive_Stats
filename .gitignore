@@ -1,0 +1,25 @@
+# DATA FILES 
+data/
+*.csv
+*.xlsx
+
+# OUTPUTS 
+outputs/
+*.txt
+*.png
+
+# PYTHON ARTIFACTS 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# JUPYTER NOTEBOOKS 
+.ipynb_checkpoints/
+
+# VSCODE SETTINGS
+.vscode/
+
+# OS-SPECIFIC FILES
+.DS_Store
+Thumbs.db
