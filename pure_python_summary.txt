@@ -1,0 +1,2055 @@
+=== Overall dataset ===
+  • Column: page_id
+      count: 246745
+      unique_values: 4475
+      most_common: ('4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d', 55503)
+  • Column: ad_id
+      count: 246745
+      unique_values: 246745
+      most_common: ('0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc', 1)
+  • Column: ad_creation_time
+      count: 246745
+      unique_values: 547
+      most_common: ('2024-10-27', 8619)
+  • Column: bylines
+      count: 245736
+      unique_values: 3790
+      most_common: ('HARRIS FOR PRESIDENT', 49788)
+  • Column: currency
+      count: 246745
+      unique_values: 18
+      most_common: ('USD', 246599)
+  • Column: delivery_by_region
+      count: 246745
+      unique_values: 141122
+      most_common: ('{}', 30989)
+  • Column: demographic_distribution
+      count: 246745
+      unique_values: 215622
+      most_common: ('{}', 30989)
+  • Column: estimated_audience_size
+      count: 246745
+      mean: 556462.8559687126
+      min: 0.0
+      max: 1000001.0
+      std_dev: 409864.75882290734
+  • Column: estimated_impressions
+      count: 246745
+      mean: 45601.52595189366
+      min: 499.0
+      max: 1000000.0
+      std_dev: 136790.76990104263
+  • Column: estimated_spend
+      count: 246745
+      mean: 1061.2914344768892
+      min: 49.0
+      max: 474999.0
+      std_dev: 4992.560748793634
+  • Column: publisher_platforms
+      count: 246745
+      unique_values: 9
+      most_common: ("['facebook', 'instagram']", 214434)
+  • Column: illuminating_scored_message
+      count: 246745
+      unique_values: 26338
+      most_common: ('e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5972)
+  • Column: illuminating_mentions
+      count: 246745
+      unique_values: 278
+      most_common: ('[]', 73205)
+  • Column: scam_illuminating
+      count: 246745
+      mean: 0.07163265719670105
+      min: 0.0
+      max: 1.0
+      std_dev: 0.25787921423700266
+  • Column: election_integrity_Truth_illuminating
+      count: 246745
+      mean: 0.05008814768283045
+      min: 0.0
+      max: 1.0
+      std_dev: 0.21812729763428282
+  • Column: advocacy_msg_type_illuminating
+      count: 246745
+      mean: 0.5486311779367363
+      min: 0.0
+      max: 1.0
+      std_dev: 0.49763039712576856
+  • Column: issue_msg_type_illuminating
+      count: 246745
+      mean: 0.38164907090315914
+      min: 0.0
+      max: 1.0
+      std_dev: 0.485792151038562
+  • Column: attack_msg_type_illuminating
+      count: 246745
+      mean: 0.27185555938316885
+      min: 0.0
+      max: 1.0
+      std_dev: 0.44491675228584093
+  • Column: image_msg_type_illuminating
+      count: 246745
+      mean: 0.22270360088350322
+      min: 0.0
+      max: 1.0
+      std_dev: 0.41606178459577625
+  • Column: cta_msg_type_illuminating
+      count: 246745
+      mean: 0.5727694583476869
+      min: 0.0
+      max: 1.0
+      std_dev: 0.49467726617114893
+  • Column: engagement_cta_subtype_illuminating
+      count: 246745
+      mean: 0.12486980485926767
+      min: 0.0
+      max: 1.0
+      std_dev: 0.33057189773339457
+  • Column: fundraising_cta_subtype_illuminating
+      count: 246745
+      mean: 0.22848689943058623
+      min: 0.0
+      max: 1.0
+      std_dev: 0.41985872700996546
+  • Column: voting_cta_subtype_illuminating
+      count: 246745
+      mean: 0.1438448600782184
+      min: 0.0
+      max: 1.0
+      std_dev: 0.35093306401909335
+  • Column: covid_topic_illuminating
+      count: 246745
+      mean: 0.024875884009807697
+      min: 0.0
+      max: 1.0
+      std_dev: 0.15574714351540456
+  • Column: economy_topic_illuminating
+      count: 246745
+      mean: 0.12212202881517356
+      min: 0.0
+      max: 1.0
+      std_dev: 0.3274273558898461
+  • Column: education_topic_illuminating
+      count: 246745
+      mean: 0.01432653143934021
+      min: 0.0
+      max: 1.0
+      std_dev: 0.11883324100080563
+  • Column: environment_topic_illuminating
+      count: 246745
+      mean: 0.02124865752092241
+      min: 0.0
+      max: 1.0
+      std_dev: 0.14421246950536118
+  • Column: foreign_policy_topic_illuminating
+      count: 246745
+      mean: 0.005264544367667025
+      min: 0.0
+      max: 1.0
+      std_dev: 0.07236608434896528
+  • Column: governance_topic_illuminating
+      count: 246745
+      mean: 0.025641856977851627
+      min: 0.0
+      max: 1.0
+      std_dev: 0.15806471271206604
+  • Column: health_topic_illuminating
+      count: 246745
+      mean: 0.10918964923301384
+      min: 0.0
+      max: 1.0
+      std_dev: 0.3118776425724781
+  • Column: immigration_topic_illuminating
+      count: 246745
+      mean: 0.03356906928205232
+      min: 0.0
+      max: 1.0
+      std_dev: 0.1801175126153678
+  • Column: lgbtq_issues_topic_illuminating
+      count: 246745
+      mean: 0.0032300553202699142
+      min: 0.0
+      max: 1.0
+      std_dev: 0.05674182858640465
+  • Column: military_topic_illuminating
+      count: 246745
+      mean: 0.002176335893331172
+      min: 0.0
+      max: 1.0
+      std_dev: 0.04660051777000881
+  • Column: race_and_ethnicity_topic_illuminating
+      count: 246745
+      mean: 0.01243388923787716
+      min: 0.0
+      max: 1.0
+      std_dev: 0.11081217172130096
+  • Column: safety_topic_illuminating
+      count: 246745
+      mean: 0.03372307442906645
+      min: 0.0
+      max: 1.0
+      std_dev: 0.18051581854071772
+  • Column: social_and_cultural_topic_illuminating
+      count: 246745
+      mean: 0.10583801090194331
+      min: 0.0
+      max: 1.0
+      std_dev: 0.3076308012712654
+  • Column: technology_and_privacy_topic_illuminating
+      count: 246745
+      mean: 0.0011550386026059293
+      min: 0.0
+      max: 1.0
+      std_dev: 0.03396629453070909
+  • Column: womens_issue_topic_illuminating
+      count: 246745
+      mean: 0.08090944092078867
+      min: 0.0
+      max: 1.0
+      std_dev: 0.27269654319083053
+  • Column: incivility_illuminating
+      count: 246745
+      mean: 0.18752558309185596
+      min: 0.0
+      max: 1.0
+      std_dev: 0.39033364735690335
+  • Column: freefair_illuminating
+      count: 246745
+      mean: 0.006415530203246266
+      min: 0.0
+      max: 1.0
+      std_dev: 0.07983982095047255
+  • Column: fraud_illuminating
+      count: 246745
+      mean: 0.0026383513343735433
+      min: 0.0
+      max: 1.0
+      std_dev: 0.051297184143630825
+
+=== Grouped by page_id ===
+
+page_id = ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230',)
+    • Column: page_id
+        count: 33
+        unique_values: 1
+        most_common: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230', 33)
+    • Column: ad_id
+        count: 33
+        unique_values: 33
+        most_common: ('0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc', 1)
+    • Column: ad_creation_time
+        count: 33
+        unique_values: 5
+        most_common: ('2024-10-13', 13)
+    • Column: bylines
+        count: 33
+        unique_values: 1
+        most_common: ('Texas Organizing Project PAC', 33)
+    • Column: currency
+        count: 33
+        unique_values: 1
+        most_common: ('USD', 33)
+    • Column: delivery_by_region
+        count: 33
+        unique_values: 21
+        most_common: ("{'Texas': {'spend': 149, 'impressions': 17499}}", 4)
+    • Column: demographic_distribution
+        count: 33
+        unique_values: 31
+        most_common: ('{}', 3)
+    • Column: estimated_audience_size
+        count: 33
+        mean: 43636.36363636364
+        min: 30000.0
+        max: 75000.0
+        std_dev: 21001.21749717469
+    • Column: estimated_impressions
+        count: 33
+        mean: 66908.09090909091
+        min: 499.0
+        max: 374999.0
+        std_dev: 96605.54902422907
+    • Column: estimated_spend
+        count: 33
+        mean: 467.1818181818182
+        min: 49.0
+        max: 2249.0
+        std_dev: 663.067938381197
+    • Column: publisher_platforms
+        count: 33
+        unique_values: 1
+        most_common: ("['facebook', 'instagram']", 33)
+    • Column: illuminating_scored_message
+        count: 33
+        unique_values: 3
+        most_common: ('dc522d5aa4f91c326d105ec4c482cf4b0c378161a6438a4c604061979c49f0dc', 14)
+    • Column: illuminating_mentions
+        count: 33
+        unique_values: 1
+        most_common: ("['Kamala Harris', 'Tim Walz']", 33)
+    • Column: scam_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: advocacy_msg_type_illuminating
+        count: 33
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: issue_msg_type_illuminating
+        count: 33
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: attack_msg_type_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: image_msg_type_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: cta_msg_type_illuminating
+        count: 33
+        mean: 0.42424242424242425
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5018903659106632
+    • Column: engagement_cta_subtype_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fundraising_cta_subtype_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: voting_cta_subtype_illuminating
+        count: 33
+        mean: 0.42424242424242425
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5018903659106632
+    • Column: covid_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: economy_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 33
+        mean: 0.42424242424242425
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5018903659106632
+    • Column: environment_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: freefair_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 33
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+
+page_id = ('b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be',)
+    • Column: page_id
+        count: 3
+        unique_values: 1
+        most_common: ('b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be', 3)
+    • Column: ad_id
+        count: 3
+        unique_values: 3
+        most_common: ('c62978153c04116d88ead49379916855f2cb58bf788631f26f3f1fcb2962ad48', 1)
+    • Column: ad_creation_time
+        count: 3
+        unique_values: 2
+        most_common: ('2024-11-02', 2)
+    • Column: bylines
+        count: 0
+        unique_values: 0
+        most_common: None
+    • Column: currency
+        count: 3
+        unique_values: 1
+        most_common: ('USD', 3)
+    • Column: delivery_by_region
+        count: 3
+        unique_values: 2
+        most_common: ('{}', 2)
+    • Column: demographic_distribution
+        count: 3
+        unique_values: 2
+        most_common: ('{}', 2)
+    • Column: estimated_audience_size
+        count: 3
+        mean: 1000001.0
+        min: 1000001.0
+        max: 1000001.0
+        std_dev: 0.0
+    • Column: estimated_impressions
+        count: 3
+        mean: 16165.666666666666
+        min: 499.0
+        max: 47499.0
+        std_dev: 27135.46265191241
+    • Column: estimated_spend
+        count: 3
+        mean: 82.33333333333333
+        min: 49.0
+        max: 149.0
+        std_dev: 57.735026918962575
+    • Column: publisher_platforms
+        count: 3
+        unique_values: 1
+        most_common: ("['facebook', 'instagram', 'audience_network', 'messenger']", 3)
+    • Column: illuminating_scored_message
+        count: 3
+        unique_values: 3
+        most_common: ('5ffb1d89916e779d01193e726cd8802b1952507da292bcf2c575cd9cc7b44cdb', 1)
+    • Column: illuminating_mentions
+        count: 3
+        unique_values: 1
+        most_common: ("['Tim Walz']", 3)
+    • Column: scam_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: advocacy_msg_type_illuminating
+        count: 3
+        mean: 0.3333333333333333
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5773502691896258
+    • Column: issue_msg_type_illuminating
+        count: 3
+        mean: 0.6666666666666666
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5773502691896257
+    • Column: attack_msg_type_illuminating
+        count: 3
+        mean: 0.6666666666666666
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5773502691896257
+    • Column: image_msg_type_illuminating
+        count: 3
+        mean: 0.3333333333333333
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5773502691896258
+    • Column: cta_msg_type_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: engagement_cta_subtype_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fundraising_cta_subtype_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: voting_cta_subtype_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: covid_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: economy_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: environment_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: freefair_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 3
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+
+page_id = ('7167146d80bba9d877a246d9682c7eecf3cae7b63337cf8ec01fff2eff27c909',)
+    • Column: page_id
+        count: 7
+        unique_values: 1
+        most_common: ('7167146d80bba9d877a246d9682c7eecf3cae7b63337cf8ec01fff2eff27c909', 7)
+    • Column: ad_id
+        count: 7
+        unique_values: 7
+        most_common: ('8eef0db915699b38fa798d4d9f5d944b1fed68bb08cce48b287ede96c336db21', 1)
+    • Column: ad_creation_time
+        count: 7
+        unique_values: 6
+        most_common: ('2024-11-02', 2)
+    • Column: bylines
+        count: 0
+        unique_values: 0
+        most_common: None
+    • Column: currency
+        count: 7
+        unique_values: 1
+        most_common: ('USD', 7)
+    • Column: delivery_by_region
+        count: 7
+        unique_values: 3
+        most_common: ("{'Minnesota': {'spend': 49, 'impressions': 499}}", 5)
+    • Column: demographic_distribution
+        count: 7
+        unique_values: 7
+        most_common: ('{}', 1)
+    • Column: estimated_audience_size
+        count: 7
+        mean: 1000001.0
+        min: 1000001.0
+        max: 1000001.0
+        std_dev: 0.0
+    • Column: estimated_impressions
+        count: 7
+        mean: 641.8571428571429
+        min: 499.0
+        max: 1499.0
+        std_dev: 377.9644730092272
+    • Column: estimated_spend
+        count: 7
+        mean: 49.0
+        min: 49.0
+        max: 49.0
+        std_dev: 0.0
+    • Column: publisher_platforms
+        count: 7
+        unique_values: 1
+        most_common: ("['facebook', 'instagram', 'audience_network']", 7)
+    • Column: illuminating_scored_message
+        count: 7
+        unique_values: 7
+        most_common: ('5ffb1d89916e779d01193e726cd8802b1952507da292bcf2c575cd9cc7b44cdb', 1)
+    • Column: illuminating_mentions
+        count: 7
+        unique_values: 1
+        most_common: ("['Tim Walz']", 7)
+    • Column: scam_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 7
+        mean: 0.14285714285714285
+        min: 0.0
+        max: 1.0
+        std_dev: 0.37796447300922725
+    • Column: advocacy_msg_type_illuminating
+        count: 7
+        mean: 0.2857142857142857
+        min: 0.0
+        max: 1.0
+        std_dev: 0.4879500364742666
+    • Column: issue_msg_type_illuminating
+        count: 7
+        mean: 0.2857142857142857
+        min: 0.0
+        max: 1.0
+        std_dev: 0.4879500364742666
+    • Column: attack_msg_type_illuminating
+        count: 7
+        mean: 0.42857142857142855
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5345224838248488
+    • Column: image_msg_type_illuminating
+        count: 7
+        mean: 0.42857142857142855
+        min: 0.0
+        max: 1.0
+        std_dev: 0.5345224838248488
+    • Column: cta_msg_type_illuminating
+        count: 7
+        mean: 0.14285714285714285
+        min: 0.0
+        max: 1.0
+        std_dev: 0.37796447300922725
+    • Column: engagement_cta_subtype_illuminating
+        count: 7
+        mean: 0.14285714285714285
+        min: 0.0
+        max: 1.0
+        std_dev: 0.37796447300922725
+    • Column: fundraising_cta_subtype_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: voting_cta_subtype_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: covid_topic_illuminating
+        count: 7
+        mean: 0.14285714285714285
+        min: 0.0
+        max: 1.0
+        std_dev: 0.37796447300922725
+    • Column: economy_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: environment_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 7
+        mean: 0.14285714285714285
+        min: 0.0
+        max: 1.0
+        std_dev: 0.37796447300922725
+    • Column: freefair_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 7
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+
+page_id = ('8109a1809ae54265da9ab4b69f5e7f6c3c42d013a07f643513875ebc1f73e8d3',)
+    • Column: page_id
+        count: 1
+        unique_values: 1
+        most_common: ('8109a1809ae54265da9ab4b69f5e7f6c3c42d013a07f643513875ebc1f73e8d3', 1)
+    • Column: ad_id
+        count: 1
+        unique_values: 1
+        most_common: ('cec88e0dc69463eca43511cefe95839e94cbdbff6abcaba18398663ea44b6292', 1)
+    • Column: ad_creation_time
+        count: 1
+        unique_values: 1
+        most_common: ('2024-11-02', 1)
+    • Column: bylines
+        count: 0
+        unique_values: 0
+        most_common: None
+    • Column: currency
+        count: 1
+        unique_values: 1
+        most_common: ('USD', 1)
+    • Column: delivery_by_region
+        count: 1
+        unique_values: 1
+        most_common: ("{'Minnesota': {'spend': 49, 'impressions': 499}}", 1)
+    • Column: demographic_distribution
+        count: 1
+        unique_values: 1
+        most_common: ("{'male_18-24': {'spend': 2, 'impressions': 27}, 'female_25-34': {'spend': 1, 'impressions': 13}, 'male_25-34': {'spend': 0, 'impressions': 9}, 'female_35-44': {'spend': 0, 'impressions': 4}, 'male_35-44': {'spend': 2, 'impressions': 27}, 'female_45-54': {'spend': 2, 'impressions': 27}, 'male_45-54': {'spend': 6, 'impressions': 64}, 'female_55-64': {'spend': 4, 'impressions': 50}, 'male_55-64': {'spend': 6, 'impressions': 64}, 'female_65+': {'spend': 10, 'impressions': 109}, 'male_65+': {'spend': 9, 'impressions': 100}}", 1)
+    • Column: estimated_audience_size
+        count: 1
+        mean: 30000.0
+        min: 30000.0
+        max: 30000.0
+        std_dev: 0.0
+    • Column: estimated_impressions
+        count: 1
+        mean: 499.0
+        min: 499.0
+        max: 499.0
+        std_dev: 0.0
+    • Column: estimated_spend
+        count: 1
+        mean: 49.0
+        min: 49.0
+        max: 49.0
+        std_dev: 0.0
+    • Column: publisher_platforms
+        count: 1
+        unique_values: 1
+        most_common: ("['facebook', 'instagram', 'audience_network', 'messenger']", 1)
+    • Column: illuminating_scored_message
+        count: 1
+        unique_values: 1
+        most_common: ('92ea6a7015d912f291b61df4d1b7d0c9685debc85f49b4f7abc11526abee6c76', 1)
+    • Column: illuminating_mentions
+        count: 1
+        unique_values: 1
+        most_common: ("['Tim Walz']", 1)
+    • Column: scam_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: advocacy_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: issue_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: attack_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: image_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: cta_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: engagement_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fundraising_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: voting_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: covid_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: economy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: environment_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: freefair_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+
+page_id = ('bb8759172b28450769f79e10c63a64ae09b986a7eab109eefb3ddff8c39886ad',)
+    • Column: page_id
+        count: 179
+        unique_values: 1
+        most_common: ('bb8759172b28450769f79e10c63a64ae09b986a7eab109eefb3ddff8c39886ad', 179)
+    • Column: ad_id
+        count: 179
+        unique_values: 179
+        most_common: ('97ba12169373d6fc48fe898c0e9457fbd391868a704a0ef3fcc1d66aa29d7046', 1)
+    • Column: ad_creation_time
+        count: 179
+        unique_values: 15
+        most_common: ('2024-10-14', 44)
+    • Column: bylines
+        count: 179
+        unique_values: 1
+        most_common: ('Seminole County Democratic Executive Committee', 179)
+    • Column: currency
+        count: 179
+        unique_values: 1
+        most_common: ('USD', 179)
+    • Column: delivery_by_region
+        count: 179
+        unique_values: 23
+        most_common: ("{'Florida': {'spend': 49, 'impressions': 499}}", 57)
+    • Column: demographic_distribution
+        count: 179
+        unique_values: 153
+        most_common: ('{}', 27)
+    • Column: estimated_audience_size
+        count: 179
+        mean: 220055.8659217877
+        min: 30000.0
+        max: 750000.0
+        std_dev: 116502.14448864806
+    • Column: estimated_impressions
+        count: 179
+        mean: 6387.268156424581
+        min: 499.0
+        max: 187499.0
+        std_dev: 17066.503325166315
+    • Column: estimated_spend
+        count: 179
+        mean: 56.82122905027933
+        min: 49.0
+        max: 649.0
+        std_dev: 51.33336077852324
+    • Column: publisher_platforms
+        count: 179
+        unique_values: 1
+        most_common: ("['facebook', 'instagram']", 179)
+    • Column: illuminating_scored_message
+        count: 179
+        unique_values: 3
+        most_common: ('e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 176)
+    • Column: illuminating_mentions
+        count: 179
+        unique_values: 5
+        most_common: ("['Kamala Harris']", 116)
+    • Column: scam_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: advocacy_msg_type_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: issue_msg_type_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: attack_msg_type_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: image_msg_type_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: cta_msg_type_illuminating
+        count: 179
+        mean: 0.0111731843575419
+        min: 0.0
+        max: 1.0
+        std_dev: 0.10540594698072792
+    • Column: engagement_cta_subtype_illuminating
+        count: 179
+        mean: 0.0111731843575419
+        min: 0.0
+        max: 1.0
+        std_dev: 0.10540594698072792
+    • Column: fundraising_cta_subtype_illuminating
+        count: 179
+        mean: 0.0111731843575419
+        min: 0.0
+        max: 1.0
+        std_dev: 0.10540594698072792
+    • Column: voting_cta_subtype_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: covid_topic_illuminating
+        count: 179
+        mean: 0.9832402234636871
+        min: 0.0
+        max: 1.0
+        std_dev: 0.12873020018783168
+    • Column: economy_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: environment_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: freefair_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 179
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+
+=== Grouped by (page_id, ad_id) ===
+
+page_id = 4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 | ad_id = 0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc
+    • Column: page_id
+        count: 1
+        unique_values: 1
+        most_common: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230', 1)
+    • Column: ad_id
+        count: 1
+        unique_values: 1
+        most_common: ('0ddb025b8544e2d58e6977ad417e742a52522b3e1fc1c9d9b61c57148f8d72fc', 1)
+    • Column: ad_creation_time
+        count: 1
+        unique_values: 1
+        most_common: ('2024-10-21', 1)
+    • Column: bylines
+        count: 1
+        unique_values: 1
+        most_common: ('Texas Organizing Project PAC', 1)
+    • Column: currency
+        count: 1
+        unique_values: 1
+        most_common: ('USD', 1)
+    • Column: delivery_by_region
+        count: 1
+        unique_values: 1
+        most_common: ("{'Texas': {'spend': 249, 'impressions': 47499}}", 1)
+    • Column: demographic_distribution
+        count: 1
+        unique_values: 1
+        most_common: ("{'female_18-24': {'spend': 28, 'impressions': 5507}, 'male_45-54': {'spend': 14, 'impressions': 2757}, 'male_65+': {'spend': 3, 'impressions': 714}, 'female_65+': {'spend': 3, 'impressions': 725}, 'unknown_55-64': {'spend': 0, 'impressions': 21}, 'male_55-64': {'spend': 7, 'impressions': 1502}, 'female_55-64': {'spend': 7, 'impressions': 1520}, 'unknown_45-54': {'spend': 0, 'impressions': 40}, 'female_45-54': {'spend': 14, 'impressions': 2735}, 'male_18-24': {'spend': 21, 'impressions': 4055}, 'unknown_35-44': {'spend': 0, 'impressions': 69}, 'male_35-44': {'spend': 26, 'impressions': 5149}, 'female_35-44': {'spend': 28, 'impressions': 5528}, 'unknown_25-34': {'spend': 0, 'impressions': 91}, 'male_25-34': {'spend': 41, 'impressions': 7976}, 'female_25-34': {'spend': 46, 'impressions': 8920}, 'unknown_18-24': {'spend': 0, 'impressions': 171}, 'unknown_65+': {'spend': 0, 'impressions': 10}}", 1)
+    • Column: estimated_audience_size
+        count: 1
+        mean: 30000.0
+        min: 30000.0
+        max: 30000.0
+        std_dev: 0.0
+    • Column: estimated_impressions
+        count: 1
+        mean: 47499.0
+        min: 47499.0
+        max: 47499.0
+        std_dev: 0.0
+    • Column: estimated_spend
+        count: 1
+        mean: 249.0
+        min: 249.0
+        max: 249.0
+        std_dev: 0.0
+    • Column: publisher_platforms
+        count: 1
+        unique_values: 1
+        most_common: ("['facebook', 'instagram']", 1)
+    • Column: illuminating_scored_message
+        count: 1
+        unique_values: 1
+        most_common: ('362d68d42e34e070bc9f999033642b8fddfca5404195fc27690c60e0acde1d5b', 1)
+    • Column: illuminating_mentions
+        count: 1
+        unique_values: 1
+        most_common: ("['Kamala Harris', 'Tim Walz']", 1)
+    • Column: scam_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: advocacy_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: issue_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: attack_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: image_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: cta_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: engagement_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fundraising_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: voting_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: covid_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: economy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: environment_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: freefair_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+
+page_id = 4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 | ad_id = 86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c687e89fa6
+    • Column: page_id
+        count: 1
+        unique_values: 1
+        most_common: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230', 1)
+    • Column: ad_id
+        count: 1
+        unique_values: 1
+        most_common: ('86229868e6bde3661724fe02da93504bb4fb5da8c2550d7b7cf193c687e89fa6', 1)
+    • Column: ad_creation_time
+        count: 1
+        unique_values: 1
+        most_common: ('2024-10-18', 1)
+    • Column: bylines
+        count: 1
+        unique_values: 1
+        most_common: ('Texas Organizing Project PAC', 1)
+    • Column: currency
+        count: 1
+        unique_values: 1
+        most_common: ('USD', 1)
+    • Column: delivery_by_region
+        count: 1
+        unique_values: 1
+        most_common: ("{'Texas': {'spend': 49, 'impressions': 22499}}", 1)
+    • Column: demographic_distribution
+        count: 1
+        unique_values: 1
+        most_common: ("{'female_18-24': {'spend': 8, 'impressions': 3904}, 'male_45-54': {'spend': 2, 'impressions': 1129}, 'male_65+': {'spend': 0, 'impressions': 299}, 'female_65+': {'spend': 0, 'impressions': 251}, 'unknown_55-64': {'spend': 0, 'impressions': 5}, 'male_55-64': {'spend': 1, 'impressions': 602}, 'female_55-64': {'spend': 0, 'impressions': 456}, 'unknown_45-54': {'spend': 0, 'impressions': 15}, 'female_45-54': {'spend': 1, 'impressions': 856}, 'male_18-24': {'spend': 6, 'impressions': 2922}, 'unknown_35-44': {'spend': 0, 'impressions': 23}, 'male_35-44': {'spend': 4, 'impressions': 2145}, 'female_35-44': {'spend': 3, 'impressions': 1726}, 'unknown_25-34': {'spend': 0, 'impressions': 31}, 'male_25-34': {'spend': 9, 'impressions': 4323}, 'female_25-34': {'spend': 8, 'impressions': 3744}, 'unknown_18-24': {'spend': 0, 'impressions': 53}, 'unknown_65+': {'spend': 0, 'impressions': 5}}", 1)
+    • Column: estimated_audience_size
+        count: 1
+        mean: 75000.0
+        min: 75000.0
+        max: 75000.0
+        std_dev: 0.0
+    • Column: estimated_impressions
+        count: 1
+        mean: 22499.0
+        min: 22499.0
+        max: 22499.0
+        std_dev: 0.0
+    • Column: estimated_spend
+        count: 1
+        mean: 49.0
+        min: 49.0
+        max: 49.0
+        std_dev: 0.0
+    • Column: publisher_platforms
+        count: 1
+        unique_values: 1
+        most_common: ("['facebook', 'instagram']", 1)
+    • Column: illuminating_scored_message
+        count: 1
+        unique_values: 1
+        most_common: ('dc522d5aa4f91c326d105ec4c482cf4b0c378161a6438a4c604061979c49f0dc', 1)
+    • Column: illuminating_mentions
+        count: 1
+        unique_values: 1
+        most_common: ("['Kamala Harris', 'Tim Walz']", 1)
+    • Column: scam_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: advocacy_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: issue_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: attack_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: image_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: cta_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: engagement_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fundraising_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: voting_cta_subtype_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: covid_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: economy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: environment_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: freefair_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+
+page_id = 4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230 | ad_id = 07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e08cac8d
+    • Column: page_id
+        count: 1
+        unique_values: 1
+        most_common: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230', 1)
+    • Column: ad_id
+        count: 1
+        unique_values: 1
+        most_common: ('07b5aefc27e872e971f793e49aac38496fa62e484f3928e2b6a2b6e3e08cac8d', 1)
+    • Column: ad_creation_time
+        count: 1
+        unique_values: 1
+        most_common: ('2024-10-13', 1)
+    • Column: bylines
+        count: 1
+        unique_values: 1
+        most_common: ('Texas Organizing Project PAC', 1)
+    • Column: currency
+        count: 1
+        unique_values: 1
+        most_common: ('USD', 1)
+    • Column: delivery_by_region
+        count: 1
+        unique_values: 1
+        most_common: ("{'Texas': {'spend': 149, 'impressions': 32499}}", 1)
+    • Column: demographic_distribution
+        count: 1
+        unique_values: 1
+        most_common: ("{'female_18-24': {'spend': 26, 'impressions': 5791}, 'male_45-54': {'spend': 7, 'impressions': 1573}, 'male_65+': {'spend': 1, 'impressions': 370}, 'female_65+': {'spend': 1, 'impressions': 298}, 'unknown_55-64': {'spend': 0, 'impressions': 9}, 'male_55-64': {'spend': 3, 'impressions': 790}, 'female_55-64': {'spend': 2, 'impressions': 578}, 'unknown_45-54': {'spend': 0, 'impressions': 21}, 'female_45-54': {'spend': 5, 'impressions': 1191}, 'male_18-24': {'spend': 19, 'impressions': 4285}, 'unknown_35-44': {'spend': 0, 'impressions': 27}, 'male_35-44': {'spend': 13, 'impressions': 2954}, 'female_35-44': {'spend': 11, 'impressions': 2531}, 'unknown_25-34': {'spend': 0, 'impressions': 37}, 'male_25-34': {'spend': 28, 'impressions': 6189}, 'female_25-34': {'spend': 26, 'impressions': 5750}, 'unknown_18-24': {'spend': 0, 'impressions': 87}, 'unknown_65+': {'spend': 0, 'impressions': 9}}", 1)
+    • Column: estimated_audience_size
+        count: 1
+        mean: 75000.0
+        min: 75000.0
+        max: 75000.0
+        std_dev: 0.0
+    • Column: estimated_impressions
+        count: 1
+        mean: 32499.0
+        min: 32499.0
+        max: 32499.0
+        std_dev: 0.0
+    • Column: estimated_spend
+        count: 1
+        mean: 149.0
+        min: 149.0
+        max: 149.0
+        std_dev: 0.0
+    • Column: publisher_platforms
+        count: 1
+        unique_values: 1
+        most_common: ("['facebook', 'instagram']", 1)
+    • Column: illuminating_scored_message
+        count: 1
+        unique_values: 1
+        most_common: ('6dc61896f4a44cf4fdbe564604bbebe33b84d2dbfb8bacc761b345b2879f0804', 1)
+    • Column: illuminating_mentions
+        count: 1
+        unique_values: 1
+        most_common: ("['Kamala Harris', 'Tim Walz']", 1)
+    • Column: scam_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: election_integrity_Truth_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: advocacy_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: issue_msg_type_illuminating
+        count: 1
+        mean: 1.0
+        min: 1.0
+        max: 1.0
+        std_dev: 0.0
+    • Column: attack_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: image_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: cta_msg_type_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: engagement_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fundraising_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: voting_cta_subtype_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: covid_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: economy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: education_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: environment_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: foreign_policy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: governance_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: health_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: immigration_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: lgbtq_issues_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: military_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: race_and_ethnicity_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: safety_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: social_and_cultural_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: technology_and_privacy_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: womens_issue_topic_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: incivility_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: freefair_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
+    • Column: fraud_illuminating
+        count: 1
+        mean: 0.0
+        min: 0.0
+        max: 0.0
+        std_dev: 0.0
